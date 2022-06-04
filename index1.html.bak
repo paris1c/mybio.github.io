@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>HTML Table Layout</title>
+  </head>
+  <body style="  margin:0px;">
+    <table style="width:100%; border-collapse:collapse; font:14px Arial,sans-serif;">
+      <tbody>
+        <tr>
+          <td colspan="2" style="padding:10px 20px; background-color:#acb3b9;">
+            <h1 style="font-size:24px;">Parisa's Bio</h1>
+          </td>
+        </tr>
+        <tr style="height:170px;">
+          <td style="width:20%; padding:20px; background-color:#d4d7dc; vertical-align: top;">
+            <ul style="list-style:none; padding:0px; line-height:24px;">
+              <li><img id="bio-image" src="https://picsum.photos/200/200" alt="Parisa"></li>
+            </ul>
+          </td>
+          <td style="padding:20px; background-color:#f2f2f2; vertical-align:top;">
+            <h2>Welcome to My Site</h2>
+            <p>My favorite movies are: </p>
+            <li>
+              <p>Movie 1</p>
+            </li>
+            <li>
+              <p>Movie 2</p>
+            </li>
+            <li>
+              <p>Movie 3</p>
+            </li>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="padding:5px; background-color:#acb3b9; text-align:center;">
+            <p></p>
+            <li><span style="font-family: Calibri;"><strong>Email:</strong> <a
+                  href="#">pariss1358@gmail.com</a></span></li>
+            <li><span style="font-family: Calibri;"><strong>Github:</strong> <a
+                  href="https://github.com/paris1c">paris1c</a></span></li>
+            <p></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
