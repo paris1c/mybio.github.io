@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
+<html lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>CSS Stylesheets with Relative Paths</title>
+    <!-- This line is money! It points your HTML to the CSS file. -->
+    <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Student Bio</h1>
+    </header>
+    <main class="container">
+      <section id="Main-bio">
+        <section id="figure">
+          <h2 id="bio-name">Parisa</h2>
+          <img id="bio-image" src="https://picsum.photos/200/200" alt="Parisa">What
+          would you like to know about me?&nbsp; <br>
+          What would you like to know about me?&nbsp; <a href="http://www.lipsum.com/">www.lipsum.com</a>
+        </section>
+      </section>
+      <aside id="contact-info">
+        <h2>Contact Info</h2>
+        <ul>
+          <li><strong>Email:</strong> <a href="#">pariss1358@gmail.com</a></li>
+          <li><strong>Github:</strong> <a href="#">paris1c</a></li>
+          <li><strong>Portfolio:</strong> <a href="#">coming soon<br>
+              <br>
+            </a></li>
+        </ul>
+        <table style="width: 400px; height: 28px;" border="1">
+          <tbody>
+            <tr>
+              <td style="width: 150.45px;">Movies That I like</td>
+              <td style="width: 72.9px;">Movie 1</td>
+              <td style="width: 175.983px;">Movie 2</td>
+            </tr>
+          </tbody>
+        </table>
+        <p><br>
+        </p>
+      </aside>
+    </main>
+  </body>
+</html>
